@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b25a7cd-35da-46b2-b8b0-e55ccd42109e" name="Default Changelist" comment="FillArc">
-      <change afterPath="$PROJECT_DIR$/src/H04/StopLicht.java" afterDir="false" />
+    <list default="true" id="9b25a7cd-35da-46b2-b8b0-e55ccd42109e" name="Default Changelist" comment="Stoplicht">
+      <change afterPath="$PROJECT_DIR$/src/H04/Dobblesteen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,14 @@
       <recent name="H04" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.StopLicht">
+  <component name="RunManager" selected="Applet.Dobblesteen">
+    <configuration name="Dobblesteen" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="H04.Dobblesteen" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FillArc" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="H04.FillArc" />
       <module name="inleiding-java" />
@@ -71,13 +78,6 @@
     </configuration>
     <configuration name="H022" type="Applet" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="H02.H022" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Huis" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="H04.Huis" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Dobblesteen" />
         <item itemvalue="Applet.StopLicht" />
         <item itemvalue="Applet.FillArc" />
         <item itemvalue="Applet.Staafdiagram" />
         <item itemvalue="Applet.NederlandseVlag" />
-        <item itemvalue="Applet.Huis" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,7 @@
       <workItem from="1604495330922" duration="3365000" />
       <workItem from="1604855050765" duration="1153000" />
       <workItem from="1604857296778" duration="700000" />
-      <workItem from="1605124117196" duration="7016000" />
+      <workItem from="1605124117196" duration="7680000" />
     </task>
     <task id="LOCAL-00001" summary="ola">
       <created>1603965050704</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605130462529</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Stoplicht">
+      <created>1605131260229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605131260229</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +229,8 @@
     <MESSAGE value="Vlag" />
     <MESSAGE value="Staafdiagram" />
     <MESSAGE value="FillArc" />
-    <option name="LAST_COMMIT_MESSAGE" value="FillArc" />
+    <MESSAGE value="Stoplicht" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stoplicht" />
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603965946362">
@@ -241,22 +249,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603964636755" />
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1605130814761">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1605131784829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605130814761" />
-    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1605130814760">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605131784829" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1605131784829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605130814760" />
-    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1605130814760">
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605131784829" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1605131784829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605130814760" />
-    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1605130814760">
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605131784829" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1605131784829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605130814760" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605131784829" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605129253278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -281,10 +289,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603966191303" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605130464191">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605131262746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605130464191" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605131262746" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605129049408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
