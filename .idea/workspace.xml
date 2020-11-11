@@ -61,7 +61,7 @@
       <recent name="H04" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Dobblesteen">
+  <component name="RunManager" selected="Applet.Praktijkopdracht">
     <configuration name="Dobblesteen" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="H04.Dobblesteen" />
       <module name="inleiding-java" />
@@ -83,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NederlandseVlag" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="H04.NederlandseVlag" />
+    <configuration name="Praktijkopdracht" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="H04.Praktijkopdracht" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Praktijkopdracht" />
         <item itemvalue="Applet.Dobblesteen" />
         <item itemvalue="Applet.StopLicht" />
         <item itemvalue="Applet.FillArc" />
         <item itemvalue="Applet.Staafdiagram" />
-        <item itemvalue="Applet.NederlandseVlag" />
       </list>
     </recent_temporary>
   </component>
