@@ -21,7 +21,7 @@ public class Staafdiagram extends Applet {
 
             //Valerie
             g.setColor(Color.red);
-            g.drawString("valerie",70, 200);
+            g.drawString("Valerie",70, 200);
             g.fillRect(60,140,50,40);
 
             //Jeroen
