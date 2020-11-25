@@ -12,7 +12,7 @@ public class test extends Applet {
 
     public void init() {
         schermtekst = "Doet deze knop wel iets?";
-        knop = new Button("Klik op mij");
+        knop = new Button("ja");
         KnopListener kl = new KnopListener();
         knop.addActionListener( kl );
         add(knop);

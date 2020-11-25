@@ -11,7 +11,7 @@ public class testtwee extends Applet {
 
     public void init() {
         tekstvak = new TextField("", 40);
-        knop = new Button("Ok");
+        knop = new Button("ja");
         knop.addActionListener( new KnopListener() );
         add(tekstvak);
         add(knop);
@@ -22,7 +22,7 @@ public class testtwee extends Applet {
         setBackground( new Color(193, 9, 227, 218) );
         g.setColor(Color.lightGray);
         g.setFont(new Font("default", Font.ITALIC, 20));
-        g.drawString("hoofdstad van Nederland?" +
+        g.drawString("doet deze knop iets?" +
                 "" +
                 "", 50, 60 );
     }
@@ -32,7 +32,7 @@ public class testtwee extends Applet {
         public void actionPerformed( ActionEvent e ) {
 
             tekstvak.setText("" +
-                     "Amsterdam");
+                     "donderop");
             repaint();
         }
     }
