@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Tekst extends Applet {
+public class h81 extends Applet {
     TextField tv;
     Button okknop, resetknop;
     String L;

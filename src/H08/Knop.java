@@ -9,13 +9,13 @@ public class Knop extends Applet {
 
     public void init() {
         knop = new Button();
-        knop.setLabel( "Daniel abbas" );
+        knop.setLabel( "5" );
         add(knop);
     }
 
     public void paint(Graphics g) {
         setBackground(Color.cyan);
         g.setColor(Color.gray);
-        g.drawString("wie is knap ?", 50, 60 );
+        g.drawString("wat is meer dan 4", 50, 60 );
     }
 }

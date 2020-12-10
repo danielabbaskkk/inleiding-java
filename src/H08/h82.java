@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Aantal extends Applet {
+public class h82 extends Applet {
 
     Button Vrouw, Man, POman, POvrouw;
     int Vrouwaantal, Manaantal, Pomanaantal, Povrouwaantal, Totaalaantal;
