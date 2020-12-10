@@ -9,7 +9,7 @@ import java.awt.event .*;
 
     public class h101 extends Applet {
 
-        int cijfer, uitkomst;
+        int getal, uitkomst;
         TextField tekstvak;
 
         public void init() {
@@ -34,9 +34,9 @@ import java.awt.event .*;
                 String s;
 
                 s = tekstvak.getText();
-                cijfer = Integer.parseInt(s);
-                if (cijfer > uitkomst) {
-                    uitkomst = cijfer;
+                getal = Integer.parseInt(s);
+                if (getal > uitkomst) {
+                    uitkomst = getal;
                 }
                 repaint();
             }
