@@ -11,13 +11,23 @@ import java.applet.*;
 
         public void paint(Graphics g) {
             int teller = 0;
+            int getal = 1;
             int y = 0;
+
 
             while(teller < 10) {
                 y += 20;
-                g.drawLine(50 , y, 300, y );
-                g.drawString("" + teller, 305, y );
+                g.drawLine(50, y, 300, y);
+                g.drawString("" + teller, 305, y);
+
                 teller++;
+
+            }
+                while(getal < 10){
+                    y += 44;
+                    g.drawString("" + getal, 308, y);
+                    getal++;
+
             }
         }
     }
