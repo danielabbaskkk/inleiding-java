@@ -1,7 +1,7 @@
 package H012;
 
 import java.applet.*;
-import java.awt.Graphics;
+import java.awt.*;
 
 public class h0121 extends Applet  {
     double[] salaris;
@@ -19,9 +19,11 @@ public class h0121 extends Applet  {
     }
 
     public void paint(Graphics g) {
+        setBackground(Color.gray);
         for (int teller = 0; teller < salaris.length; teller ++) {
             g.drawString("" + kopie[teller], 50, 20 * teller + 20);
             g.drawString("" + salaris[teller], 100, 20 * teller + 20);
+
         }
     }
 }
