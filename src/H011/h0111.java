@@ -9,6 +9,7 @@ import java.applet.*;
         public void init() {}
 
         public void paint(Graphics g) {
+            setBackground(Color.gray);
             int teller;
             int y = 0;
 
@@ -17,6 +18,7 @@ import java.applet.*;
                 g.drawLine(50 , y, 300, y );
                 g.drawString("" + teller, 305, y );
             }
+
         }
     }
 
